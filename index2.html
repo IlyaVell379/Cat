@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Отступы</title>
+    <style>
+        /* ========== НУЖНО ДОБАВИТЬ ТОЛЬКО ОТСТУПЫ ========== */
+        
+        /* Задание 1: Сделать красный блок шириной 200px, высотой 200px,
+           отступ сверху 50px, выровнять по центру */
+        .block-red {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin-top:50px ;
+            margin:0 auto ;
+        }
+        
+        /* Задание 2: Синий блок шириной 150px, высотой 150px,
+           внутренний отступ 20px со всех сторон */
+        .block-blue {
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            padding:20px;
+
+        }
+        
+        /* Задание 3: Зеленый блок шириной 100px, высотой 100px,
+           внешний отступ снизу 30px */
+        .block-green {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin-bottom:30px ;
+            
+
+        }
+        
+        /* Задание 4: Желтый блок шириной 100px, высотой 100px,
+           внешний отступ слева 50px */
+        .block-yellow {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            margin-left:50px ;
+        }
+        
+        /* Задание 5: Розовый блок шириной 150px, высотой 150px,
+           внутренний отступ сверху  20px,
+           внутренний отступ слева  15px */
+        .block-pink {
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+            padding-top: 20px;
+            padding-left:15 ;
+        }
+        
+        /* Задание 6: Оранжевый блок шириной 200px, высотой 200px,
+           внешний отступ справа 40px,
+           внешний отступ снизу  25px */
+        .block-orange {
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            margin-right: 40px;
+            margin-bottom:25px ;
+        }
+        
+        /* ========== КОД НИЖЕ НЕ МЕНЯТЬ ========== */
+    </style>
+</head>
+<body>
+
+    <div class="block-red">Красный </div>
+    <div class="block-blue">Синий </div>
+    
+    <div class="block-green">Зеленый</div>
+    <div class="block-yellow">Желтый </div>
+    
+    <div class="block-pink">Розовый </div>
+    <div class="block-orange">Оранжевый</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка товара</title>
+    <style>
+        /* ========== НУЖНО ДОБАВИТЬ ТОЛЬКО ОТСТУПЫ ========== */
+        
+        /* Задание 1: Карточка шириной 300px, фон белый,
+           внешний отступ сверху 50px, выровнять по центру страницы */
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-top:50px ;
+            margin:0 auto ;
+        }
+        
+        /* Задание 2: Изображение — ширина 100%, 
+           внешний отступ снизу 15px (отступ от картинки до названия) */
+        .card-img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            margin-bottom:15px ;
+        }
+        
+        /* Задание 3: Контент внутри карточки — 
+           внутренний отступ со всех сторон 20px */
+        .card-content {
+            padding:20px ; 
+        }
+        
+        /* Задание 4: Название товара — 
+           внешний отступ снизу 10px (от названия до описания) */
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+             margin-bottom:10px ; 
+        }
+        
+        /* Задание 5: Описание товара — 
+           внешний отступ снизу 15px (от описания до цены) */
+        .description {
+            color: #666;
+            font-size: 14px;
+             margin-bottom:15px ; 
+        }
+        
+        /* Задание 6: Цена — 
+           внешний отступ снизу 20px (от цены до кнопки) */
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6600;
+             margin-bottom:20px ; 
+        }
+        
+        /* Задание 7: Кнопка — 
+           внутренний отступ сверху и снизу 12px,
+           внутренний отступ слева и справа 20px,
+           внешний отступ снизу 10px (от кнопки до низа) */
+        .btn {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+             padding-top:12px 20px; 
+             margin-bottom:10px ; 
+        }
+        
+        /* ========== КОД НИЖЕ НЕ МЕНЯТЬ ========== */
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img class="card-img" src="https://via.placeholder.com/300x200" alt="товар">
+        <div class="card-content">
+            <div class="title">Наушники SoundPro X</div>
+            <div class="description">Беспроводные наушники с шумоподавлением, время работы до 30 часов</div>
+            <div class="price">4 999 ₽</div>
+            <button class="btn">В корзину</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
